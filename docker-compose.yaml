@@ -8,5 +8,6 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: db
+      LANG: C.UTF-8
     ports:
       - "5432:5432"
